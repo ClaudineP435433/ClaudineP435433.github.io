@@ -1,92 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Mojito #Hackeuses</title>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My profile</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Open+Sans" rel="stylesheet"> -->
+<!--     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
+  </head>
+  <body>
 
-  <link href="https://fonts.googleapis.com/css?family=Cute+Font|Dokdo" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
-  <link rel="stylesheet" href="style.css">
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</head>
-<body>
-  <div class="recipe_card test-flex">
-      <h1>Mojito</h1>
-      <img src="https://static.750g.com/images/660-auto/b520523117d647dab6b842a36f4cc7f5/mojito-le-vrai.jpg" alt="mojito" id="recipe_img">
-  </div>
-  <div class="test-flex">
-    <div class="recipe_card width-40vw">
-      <h2>Le vrai!</h2>
-      <p>Rien de mieux qu'un bon mojito maison fait dans les régles de l'art</p>
+    <div class="card-white">
+      <h1>Hello, I am Claudine 😜!</h1>
+      <img src="images/clo.jpg" alt="Claudine Pradal" class='avatar'>
+      <p>I love Ruby on Rails, UX/UI Design, web-development and Sewing 👗.
+      I am a Web Developper and Teaching at le Wagon.</p>
+      <a href="https://www.lewagon.com" target="_blank" class="btn-button">
+        Découvrez Le Wagon!
+      </a>
     </div>
 
-    <ul class="recipe_card width-40vw" id="ingredients_card">
-      <li><strong>Mes Ingrédients</strong></li>
-      <li>4 cl de rhum blanc.</li>
-      <li>2 cl de sirop de sucre de canne.</li>
-      <li>6 à 8 feuilles de menthe.</li>
-      <li>1 demi citron vert.</li>
-      <li>Un peu d'eau gazeuse.</li>
-      <li>10 glaçons.</li>
-    </ul>
-  </div>
-
-  <br>
-
-  <p>Retrouvez tous mes cocktails sur :
-  <a href="https://www.facebook.com/" target="_blank">
-    <i class="fab fa-facebook red-i"></i>
-    <i class="fab fa-linkedin"></i>
-  </a>
-  </p>
-
-  <a href="cocktails.html" class="btn btn-primary">Retrouvez d'autres cocktails</a>
-  <a href="about.html">Mes Coordonées</a>
-
-  <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <ul>
-          <li><strong>Mes Ingrédients</strong></li>
-          <li>4 cl de rhum blanc.</li>
-          <li>2 cl de sirop de sucre de canne.</li>
-          <li>6 à 8 feuilles de menthe.</li>
-          <li>1 demi citron vert.</li>
-          <li>Un peu d'eau gazeuse.</li>
-          <li>10 glaçons.</li>
-        </ul>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+    <div class="card-white">
+      <h2>Ruby on Rails</h2>
+      <p>I am passionate about <strong>Ruby on Rails</strong>.</p>
     </div>
-  </div>
-</div>
 
+    <div class="card-white">
+      <h2>UX/UI Design</h2>
+      <p>I am passionate about <strong>UX/UI Design</strong>.</p>
+    </div>
 
+    <div class="card-white">
+      <h2>Sewing</h2>
+      <p>I am passionate about <strong>Sewing</strong>.</p>
+    </div>
 
-</body>
+    <div class="card-white">
+      <h2>Follow me</h2>
+      <ul class="list-inline">
+        <li><a href=""><i class="fab fa-github"></i></a></li>
+        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+
+  </body>
 </html>
-
-
